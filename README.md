@@ -17,6 +17,7 @@ This repository provides a framework for classifying phonation types (specifical
 │   ├── ML/        # Data loader, training, and evaluation scripts for a classification task using LSTM
 ├── data/
 │   └── annotations/   # Metadata and phonation labels (CSV)
+├──results
 ├── requirements.txt   # Python dependency list
 └── README.md          # Project documentation
 </pre>
