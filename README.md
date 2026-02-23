@@ -50,6 +50,7 @@ This command checks for required toolboxes, modifies the search paths, and compi
 
 # Usage
 1. **Feature Extraction (MATLAB)**
+
 Extract features from .wav files into JSON format using the provided MATLAB scripts:
 
 * Extract MFCCs: 
@@ -62,6 +63,7 @@ Run src/feature_extracter/GFCC_Extracter.m.
 ```
 
 2. **Training**
+
 Perform a grid search to find the optimal LSTM parameters. The script saves the best weights for each trial automatically.
 ```bash
 python src/ML/Train.py [EXP_ID] --feature_type GFCC
