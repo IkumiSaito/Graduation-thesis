@@ -68,7 +68,8 @@ Perform a grid search to find the optimal LSTM parameters. The script saves the 
 ```bash
 python src/ML/Train.py [EXP_ID] --feature_type GFCC
 ```
-3. Evaluation (Python)
+3. **Evaluation**
+
 Run Stratified 5-Fold Cross-Validation on the unified dataset:
 
 ```bash
