@@ -35,7 +35,7 @@ Scikit-learn, Pandas, Numpy, tqdm, TensorBoard
 * Auditory Modeling Toolbox (AMT): Required for Gammatone filterbank processing.
 
 
-# AMT Installation
+## AMT Installation
 Download the "AMT full package" from the https://amtoolbox.org.
 
 Unzip the package and open MATLAB.
