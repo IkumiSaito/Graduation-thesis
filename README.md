@@ -35,6 +35,20 @@ Scikit-learn, Pandas, Numpy, tqdm, TensorBoard
 * Auditory Modeling Toolbox (AMT): Required for Gammatone filterbank processing.
 
 
+# AMT Installation
+Download the "AMT full package" from the https://amtoolbox.org.
+
+Unzip the package and open MATLAB.
+
+Navigate to the AMT directory in MATLAB and run the following command for the first-time setup:
+
+Matlab
+```bash
+amt_start('install');
+```
+This command checks for required toolboxes, modifies the search paths, and compiles binary files.
+
+
 # Usage
 1. **Feature Extraction (MATLAB)**
 Extract features from .wav files into JSON format using the provided MATLAB scripts:
