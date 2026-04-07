@@ -1,4 +1,4 @@
-# Comparative Study of GFCCs and MFCCs for Braethy speech Classification using LSTM
+# Comparative Study of GFCCs and MFCCs for Breathy speech Classification using LSTM
 This repository provides a framework for classifying phonation types (specifically Breathy vs. Modal voice) using acoustic features and deep learning. It evaluates the effectiveness of GFCC (Gammatone Frequency Cepstral Coefficients) compared to MFCC using an LSTM network.
 
 ## Key Features
